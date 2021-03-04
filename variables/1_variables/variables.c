@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 {
+	// declaracion de variables
 	int entero=32;
-	short int entero_corto=32;
+/*	short int entero_corto=32;
 	long int entero_largo=32L;
 	unsigned int entero_sin_signo=32U;
 	float simple=12.8F;
@@ -11,9 +12,13 @@ int main()
 	float notacion_cientifica=4.5e-4;
 	char caracter='A';
 	char cadena[10]="Lenguaje C";
-	
-	printf("int:%d\n", entero); 
-	printf("Short int:%hd\n", entero_corto); 
+*/	
+// printf ("texto") mandar a imprimir en pantalla;
+// printf ("texto %formato", identificador);
+	printf("Primer int:%d\n", entero);
+	entero = 789;
+	printf("Segundo int:%d\n", entero);
+/*	printf("Short int:%hd\n", entero_corto); 
 	printf("Long int:%ld\n", entero_largo); 
 	printf("Unsigned int:%u\n", entero_sin_signo); 
 	printf("Float:%f\n", simple); 
@@ -22,6 +27,7 @@ int main()
 	printf("Double Double:%LF\n", doble_extendido); 
 	printf("Char:%c\n", caracter); 
 	printf("String:%s\n", cadena); 
+*/
 // fin
 return 0;
 }

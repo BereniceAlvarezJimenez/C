@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define num 10
+#define num 10 // esto es una macro y inician en en precompilado
 
 int main()
 {
@@ -12,11 +12,11 @@ int main()
 	
 	printf("\n\nCambiando valores...\n\n");
 
-	//constante=10;
-	variable=0;
-	#define num 300
+	//constante=10; no se pueden cambiar los valores constantes
+ 	variable=0;
+	//#define num 300
 		
-	//printf("Nuevo valor de constante:%d\n", constante);
+	printf("Nuevo valor de constante:%d\n", constante);
 	printf("Nuevo valor de variable:%d\n", variable);
 	printf("Nuevo valor de macro:%d\n", num);
 	return 0;
