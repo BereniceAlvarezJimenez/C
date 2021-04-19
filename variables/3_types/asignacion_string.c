@@ -3,7 +3,7 @@
 #include <string.h> // Archivo de cabecera para funciones cadena
 int main()
 { // Inicio
- char saludo[20] = "Hola"; // Define variable cadena
+ char saludo[30] = "Hola"; // Define variable cadena
  strcpy(saludo,"Buenos"); // Asigna valor a cadena
  strcat(saludo," dias");
  strcat(saludo,"_usuario");
