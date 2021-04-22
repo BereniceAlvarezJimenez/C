@@ -5,10 +5,9 @@ int main()
 	printf("Introduce tu edad: ");
 	scanf("%d",&edad);
 
-	if (edad >17 && edad <35)
-	{
+	if (edad >17 && edad <35){
 		 printf("Tienes %d anios, eres mayor de edad",edad);
-	}
+		}
 	else if (edad < 17)
 	{
 		 printf("Tienes %d anios, eres menor de edad",edad);
