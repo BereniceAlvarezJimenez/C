@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
 
    int a=1;
+   
    do  //do while, primero corre y luego compara
    {
-     printf( "Iteracion numero %d\n",a );
+    printf( "Iteracion numero %d\n",a );
         a++;
    } while ( a<1 );
 

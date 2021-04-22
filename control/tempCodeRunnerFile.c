@@ -1,16 +1,10 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
 
-   int a=1;
-   do
-   {
-     printf( "Iteracion numero %d\n",a );
-        a++;
-   } while ( a<5 );
-
-   printf( "Fin de programa, valor actual de %d",a );
-
+    int cont;
+    for (cont = 1; cont <101;cont ++){
+        printf("Iteracion numero %d\n",cont);
+    }
    return 0;
 }
